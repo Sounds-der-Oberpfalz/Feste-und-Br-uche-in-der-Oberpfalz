@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.ur.mi.soundsderoberpfalzprojekt"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="de.ur.mi.soundsderoberpfalzprojekt.StartScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.ur.mi.soundsderoberpfalzprojekt.DetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="de.ur.mi.soundsderoberpfalzprojekt.test"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>        
+        <activity
+            android:name="de.ur.mi.soundsderoberpfalzprojekt.MapActivity"
+            android:label="@string/title_activity_map_kirwas"
+            android:screenOrientation="landscape" >
+        </activity>        
+        <activity
+            android:name="de.ur.mi.soundsderoberpfalzprojekt.HelpActivity"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

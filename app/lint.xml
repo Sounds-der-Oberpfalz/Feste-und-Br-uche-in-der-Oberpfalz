@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="NewApi" severity="warning">
+        <ignore path="src/de/ur/mi/soundsderoberpfalzprojekt/DetailActivity.java" />
+        <ignore path="src/de/ur/mi/soundsderoberpfalzprojekt/MapKirwasActivity.java" />
+        <ignore path="src/de/ur/mi/soundsderoberpfalzprojekt/StartScreen.java" />
+        <ignore path="src/de/ur/mi/soundsderoberpfalzprojekt/HelpActivity.java" />
+    </issue>
+</lint>

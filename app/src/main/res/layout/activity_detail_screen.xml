@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hintergrund_himmelblau" >
+
+    <TextView
+        android:id="@+id/detail_screen_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:maxLength="60"
+        android:maxLines="2"
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/detail_screen_back_button"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/text_back_button"
+        android:textSize="23sp" />
+
+    <ImageView
+        android:id="@+id/detail_screen_main_image"
+        android:layout_width="500dp"
+        android:layout_height="450dp"
+        android:layout_below="@id/detail_screen_headline"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/detail_color" />
+
+    <TextView
+        android:id="@+id/detail_advice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/detail_screen_main_image"
+        android:layout_alignLeft="@id/detail_screen_main_image"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Klicken zum Vergrößern"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <ListView
+        android:id="@+id/detail_screen_media_selection"
+        android:layout_width="170dp"
+        android:layout_height="450dp"
+        android:layout_alignTop="@id/detail_screen_main_image"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/detail_screen_main_image"
+        android:background="@color/detail_color" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/detail_screen_text"
+        android:layout_width="490dp"
+        android:layout_height="450dp"
+        android:layout_alignTop="@id/detail_screen_media_selection"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/detail_screen_media_selection"
+        android:gravity="fill_horizontal"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/detail_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/hintergrund" />
+
+    <ImageView
+        android:id="@+id/swipeRight"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/arrowright" />
+
+    <ImageView
+        android:id="@+id/swipeLeft"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/arrowleft" />
+
+    <VideoView
+        android:id="@+id/video_player"
+        android:layout_width="500dp"
+        android:layout_height="450dp"
+        android:layout_alignLeft="@id/detail_screen_main_image"
+        android:layout_alignTop="@id/detail_screen_main_image"
+        android:visibility="invisible" />
+
+</RelativeLayout>

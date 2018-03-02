@@ -1,0 +1,484 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hintergrund_himmelblau" >
+
+    <TextView
+        android:id="@+id/selectedCelebrationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonKirwas"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:maxLength="60"
+        android:maxLines="2"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/celebrationDescription"
+        android:layout_width="450dp"
+        android:layout_height="360dp"
+        android:layout_below="@id/selectedCelebrationTitle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/landkeise_opf05_map" />
+
+    <Button
+        android:id="@+id/buttonDetail"
+        style="@style/btnStyleBreakerBay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectedCelebrationTitle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:enabled="false"
+        android:text="@string/button_watch"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <!-- !!! BUTTONS FÜR CELEBRATIONS !!! -->
+
+    <Button
+        android:id="@+id/button_kirwa_erbendorf"
+        style="@style/btnStyleKirwas"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="137dp"
+        android:background="@drawable/map_button_unclicked2" />
+
+    <Button
+        android:id="@+id/button_kirwa_neustadt"
+        style="@style/btnStyleKirwas"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="187dp"
+        android:background="@drawable/map_button_unclicked2" />
+
+    <Button
+        android:id="@+id/button_kirwa_amberg"
+        style="@style/btnStyleKirwas"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="342dp"
+        android:background="@drawable/map_button_unclicked2" />
+
+    <Button
+        android:id="@+id/button_kirwa_fronberg"
+        style="@style/btnStyleKirwas"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="335dp"
+        android:layout_marginTop="385dp"
+        android:background="@drawable/map_button_unclicked2" />
+
+    <Button
+        android:id="@+id/button_kirwa_thalersdorf"
+        style="@style/btnStyleKirwas"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="482dp"
+        android:background="@drawable/map_button_unclicked2" />
+
+    <Button
+        android:id="@+id/button_kirwa_trautmannshofen"
+        style="@style/btnStyleKirwas"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="397dp"
+        android:background="@drawable/map_button_unclicked2" />
+
+    <Button
+        android:id="@+id/button_kirwa_kallmuenz"
+        style="@style/btnStyleKirwas"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="482dp"
+        android:background="@drawable/map_button_unclicked2" />
+
+    <Button
+        android:id="@+id/button_bergfest_schmidmuehlen"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="437dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_bergfest_auerbach"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="207dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_bergfest_freudenberg"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="327dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_bergfest_amberg"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="342dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_bergfest_sulzbach_rosenberg"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="317dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_bergfest_schnaittenbach"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="287dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_bergfest_hahnbach"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="297dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_bergfest_mausberg"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="292dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_bergfest_kreuzberg"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_bergfest_ensdorf"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="397dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_bergfest_waldthurn"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="420dp"
+        android:layout_marginTop="207dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_bergfest_pfreimd"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_bergfest_pleystein"
+        style="@style/btnStyleBergfeste"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="440dp"
+        android:layout_marginTop="227dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_brauch_drachenstich"
+        style="@style/btnStyleBraeuche"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="590dp"
+        android:layout_marginTop="417dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_brauch_pfingstritt"
+        style="@style/btnStyleBraeuche"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="482dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_brauch_fischzug"
+        style="@style/btnStyleBraeuche"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="437dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_brauch_chinesenfasching"
+        style="@style/btnStyleBraeuche"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="555dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_brauch_oiasinga"
+        style="@style/btnStyleBraeuche"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="297dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_brauch_maibaumaufstellen"
+        style="@style/btnStyleBraeuche"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="430dp"
+        android:layout_marginTop="537dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_brauch_pavillon"
+        style="@style/btnStyleBraeuche"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="413dp"
+        android:layout_marginTop="567dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_brauch_specht"
+        style="@style/btnStyleBraeuche"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="395dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_brauch_oarschboussn"
+        style="@style/btnStyleBraeuche"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="445dp"
+        android:layout_marginTop="327dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_brauch_moisterratschn"
+        style="@style/btnStyleBraeuche"
+        android:layout_width="35dp"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@id/map"
+        android:layout_alignTop="@id/map"
+        android:layout_marginLeft="455dp"
+        android:layout_marginTop="237dp"
+        android:background="@drawable/map_button_unclicked2"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/buttonHilfe"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/text_help_button"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/buttonKirwas"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/button_kirwan"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/buttonBergfeste"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/buttonKirwas"
+        android:text="@string/button_bergfeste"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/buttonBraeuche"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/buttonBergfeste"
+        android:text="@string/button_kuriosa"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/buttonToStart"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/text_back_button"
+        android:textSize="23sp" />
+
+    <Spinner
+        android:id="@+id/search_celebration"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/buttonToStart"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/buttonToStart"
+        android:background="@drawable/spinnerbackground" />
+
+    <!-- !!! BUTTONS FÜR CELEBRATIONS !!! -->
+
+</RelativeLayout>

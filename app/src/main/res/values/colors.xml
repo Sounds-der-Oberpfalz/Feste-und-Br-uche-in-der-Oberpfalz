@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="custom_black_1">#FFDEAD</color>
+    <color name="custom_balck_2">#212121</color>
+    <!-- <color name="custom_white">#FF7F24</color> -->
+    <color name="custom_white">#FFA224</color>
+    <color name="detail_color">#104E8B</color>
+
+</resources>

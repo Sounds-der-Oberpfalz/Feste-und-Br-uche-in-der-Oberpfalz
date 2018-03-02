@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hintergrund_himmelblau" >
+
+    <Button
+        android:id="@+id/button_start"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="@string/button_start"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/title_start_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/start_screen_headline"
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/help_description_startScreen"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_start_screen"
+        android:contentDescription="@string/button_start" />
+
+    <ImageView
+        android:id="@+id/image_2"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_start_screen"
+        android:contentDescription="@string/button_start" />
+
+    <ImageView
+        android:id="@+id/image_3"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_start_screen"
+        android:contentDescription="@string/button_start" />
+
+    <ImageView
+        android:id="@+id/image_4"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_start_screen"
+        android:contentDescription="@string/button_start" />
+
+    <ImageView
+        android:id="@+id/image_5"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_start_screen"
+        android:contentDescription="@string/button_start" />
+
+    <ImageView
+        android:id="@+id/image_6"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_start_screen"
+        android:contentDescription="@string/button_start" />
+
+    <ImageView
+        android:id="@+id/image_7"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_start_screen"
+        android:contentDescription="@string/button_start" />
+
+    <ImageView
+        android:id="@+id/image_8"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_start_screen"
+        android:contentDescription="@string/button_start" />
+
+    <ImageView
+        android:id="@+id/image_9"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_start_screen"
+        android:contentDescription="@string/button_start" />
+
+</RelativeLayout>
