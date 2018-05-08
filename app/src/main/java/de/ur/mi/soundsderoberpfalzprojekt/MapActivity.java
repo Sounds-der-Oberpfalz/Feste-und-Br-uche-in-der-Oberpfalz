@@ -155,7 +155,7 @@ public class MapActivity extends Activity implements OnClickListener,
 		}
 
 		Collections.sort(celebrationTitle);
-		celebrationTitle.add(0, "Suchen");
+		celebrationTitle.add(0, "Vyhledávání");
 
 		adapter = new ArrayAdapter(this, android.R.layout.simple_spinner_item,
 				celebrationTitle);
