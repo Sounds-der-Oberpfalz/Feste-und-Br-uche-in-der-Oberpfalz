@@ -8,211 +8,211 @@
     <string name="title_activity_help">HelpActivity</string>
 
     <!--  -->
-    <string name="button_start">Start</string>
-    <string name="button_watch">Betrachten</string>
-    <string name="action_settings">Settings</string>
-    <string name="text_help_button">Hilfe</string>
-    <string name="text_back_button">Zurück</string>
+    <string name="button_start">start</string>
+        <string name="button_watch">shlédnout</string>
+        <string name="action_settings">settings</string>
+        <string name="text_help_button">pomoc</string>
+        <string name="text_back_button">zpět</string>
 
     <!--  -->
-    <string name="help_description_startScreen">Berühren Sie das Feld "Start", um verschiedene Bräuche aus der Oberpfalz kennenzulernen.</string>
-    <string name="help_description0">Liebe Besucher,\nauf diesem Bildschirm können Sie mehr über Feste und Bräuche in der Oberpfalz erfahren. Berühren Sie dazu die Elemente mit dem Finger.</string>
-    <string name="help_description1">Links oben können Sie zwischen den Kategorien Kirwan, Bergfeste und Kuriosa wählen. </string>
-    <string name="help_description2">Auf der Karte erscheinen alle Bräuche dieser Kategorie als kleine Kreise. Diese können Sie ebenfalls antippen.</string>
-    <string name="help_description3">Das Feld "Betrachten" erscheint dann, wenn es Fotos oder Videos zu einem Brauch gibt.</string>
-    <string name="help_description4">Die Fotos können Sie durch Antippen vergrößern. Berühren Sie das vergrößerte Foto und wischen Sie mit dem Finger nach rechts oder links, um das nächste Bild zu sehen.</string>
-    <string name="button_kuriosa">Kuriosa</string>
-    <string name="description_kuriosa">Hier finden Sie besonders außergewöhnliche Bräuche, Feste und religiöse Besonderheiten im Oberpfälzer Raum.</string>
-    <string name="button_kirwan">Kirwan</string>
-    <string name="description_kirwan">Die Kirwa wird seit dem Mittelalter als religiöses Fest anlässlich der Kirchweihe eines christlichen Kirchengebäudes gefeiert.</string>
-    <string name="button_bergfeste">Bergfeste</string>
-    <string name="description_bergfeste">Bergfest ist eine regionale Kurzbezeichnung für zahlreiche Volks-, Heimat- oder Kirchenfeste, bei denen ein Berg als Veranstaltungsort oder als identitätsstiftender Namensgeber fungiert.</string>
-    <string name="start_screen_headline">Erkunden Sie die Feste und Bräuche in der Oberpfalz!</string>
-    <string name="start_screen_waiting">Bitte warten Sie, während die App gestartet wird.</string>
+    <string name="help_description_startScreen">Dotkněte se "start" a seznamte se
+s různými obyčeji Horní Falce.</string>
+        <string name="help_description0">Milí návštěvníci,\nna této obrazovce se můžete podrobněji seznámit s hornofalcskými slavnostmi a obyčeji. Dotkněte se prvků.</string>
+        <string name="help_description1">Vlevo nahoře si můžete vybrat mezi kategoriemi posvícení, horské slavnosti a kuriozity. </string>
+        <string name="help_description2">Na mapě se objeví všechny obyčeje této kategorie
+v podobě malých kruhů. Na tyto můžete také kliknout.</string>
+        <string name="help_description3">Das Feld "shlédnout" se objeví, jsou-li k dispozici fotky nebo videa.</string>
+        <string name="help_description4">Fotky můžete kliknutím zvětšit. Dotkněte se zvětšené fotky. Pohybem prstu doprava nebo doleva se dostanete na další fotku.</string>
+        <string name="button_kuriosa">kuriozity</string>
+        <string name="description_kuriosa">Zde najdete obzvlášť vyjímečné obyčeje, svátky a církevní slavnosti v Horní Falci.</string>
+        <string name="button_kirwan">posvícení</string>
+        <string name="description_kirwan">Posvícení (Kirwa) se již od středověku slaví u příležitosti vysvěcení církevní stavby.</string>
+        <string name="button_bergfeste">horské slavnosti</string>
+        <string name="description_bergfeste">Horská slavnost je zkrácené označení celé řady lidových, místních a církevních svátků, které se buď konaly na nějaké hoře nebo jimž hory propůjčily své jméno.</string>
+        <string name="start_screen_headline">Poznejte slavnosti a obyčeje v Horní Falci!</string>
+        <string name="start_screen_waiting">Prosím počkejte, až se nastartuje aplikace.</string>
 
     <!--  -->
-    <string name="drachenstich_titel">Drachenstich \nFurth im Wald</string>
-    <string name="pfingstritt_titel">Pfingstritt \nBad Kötzting</string>
-    <string name="fischzug_titel">Fischzug \nSchmidmühlen</string>
-    <string name="chinesenfasching_titel">Chinesenfasching \nDietfurt</string>
-    <string name="oisinga_titel">„Oiasinga“ \nEtzelwang</string>
-    <string name="maibaum_titel">Maibaumaufstellen \nBrennberg</string>
-    <string name="pavillion_titel">Nepal-Himalaya-Pavillon \nWiesent</string>
-    <string name="specht_titel">Die Specht \nMünchenreuther</string>
-    <string name="oarschboussn_titel">Oarschboußn \nOberviechtach</string>
-    <string name="ratschn_titel">Moisterratschn und \nKlamperl Waidhaus</string>
+    <string name="drachenstich_titel">skolení draka \nFurth im Wald</string>
+        <string name="pfingstritt_titel">svatodušní procesí na koních \nBad Kötzting</string>
+        <string name="fischzug_titel">rybí průvod \nSchmidmühlen</string>
+        <string name="chinesenfasching_titel">čínský masopust \nDietfurt</string>
+        <string name="oisinga_titel">„velikonoční koledy“ \nEtzelwang</string>
+        <string name="maibaum_titel">postavení májky \nBrennberg</string>
+        <string name="pavillion_titel">Nepálsko-himalájský pavilon \nWiesent</string>
+        <string name="specht_titel">Specht \nMünchenreuther</string>
+        <string name="oarschboussn_titel">Oarschboußn \nOberviechtach</string>
+        <string name="ratschn_titel">Moisterratschn a \nKlamperl Waidhaus</string>
 
     <!--  -->
-    <string name="drachenstich_detail">Einmal im Jahr verwandelt sich ganz Furth im Wald 
-für zwei Wochen im August zum Schauplatz des Drachenstichs.
+    <string name="drachenstich_detail"> Každý srpen se celý Furth im Wald
+na dva týdny  stane dějištěm skolení draka. Nestarší bavorská lidová hra začíná, když největší, čtyřnohý kráčející robot na světě (zápis do Guinnessovy knihy rekordů: 12 tun) opustí svou „jeskyni“.
 
-Wenn der größte, vierbeinig schreitende Roboter der Welt  
-(Eintrag im Guinness Buch der Rekorde: 12 Tonnen) 
-seine „Höhle“ verlässt, beginnt Bayerns ältestes Volksschauspiel.
+Tradice skolení draka vychází z každoročních procesí
+Božího těla ve městě.
+Obyvatele Furthu ztvárnili legendu
+o drakobijci sv. Jiří již v 16. století.
 
-Die Tradition des Drachenstichs 
-geht auf die jährliche Pfingstprozession der Stadt zurück. 
-Bereits im 18. Jahrhundert stellten die Further hier 
-die Legende des Drachentöters Sankt Georg nach.  
+Dnes statečný rytíř zachraňuje
+celé město před jistou smrtí
+ranou kopím do hrdla nestvůry.
 
-Heute verhindert ein todesmutiger Ritter, 
-durch seinen Lanzenstoß in den Schlund der Bestie,
-den sicheren Tod des gesamten Dorfes.
+Slavnost každoročně přiláká více než 20.000 návštěvníků.</string>
 
-Jährlich lockt der Drachenstich über …. Besucher in die Gemeinde.</string>
-    <string name="pfingstritt_detail">Hoch zu Ross bestreiten die Bad Kötztinger Herren und Burschen
-um die Pfingstzeit die Wallfahrt zur kleinen Kirche in Steinbühl.
-Der krönende Abschluss der Zeremonie (im wahrsten Sinne)
-ist die symbolische Hochzeit des „Pfingstbrautpaares“.
+        <string name="pfingstritt_detail">Muži z Bad Kötztingu se vydávají o letnicích na koních na pouť k malému kostelíku ve Steinbühlu.
+Slavnostní obřad končí symbolickou svatbou „letnicových snoubenců“.
 
-Diese Tradition lässt sich bis auf Unterbrechungen
-während der Weltkriege sowie der Säkularisation bis 1640 zurückverfolgen.</string>
-    <string name="fischzug_detail">Am Aschermittwoch in Schmidmühlen um „oans“
-betrauert Schmidmühlen die närrische Zeit auf hohem Niveau:
-In Frack, mit Zylinder und im exakten Gänsemarsch
-bewegen sich die „Fischzügler“ durch das Dorf und 
-kehren in Wirtschaften ein.
-Dort verzehren die „Fischzügler“ mitgebrachte Kronsardinen 
-mit trockenem Brot und reichlich Freibier vom  Wirt als Katerbrotzeit.
+Tato tradice sahá s vyjímkou přerušení během světových válek
+a sekularizace až do roku 1412.</string>
+        <string name="fischzug_detail">Na Popeleční středu  v „oans“ [v jednu]
+začíná ve Schmidmühlenu smuteční průvod, který
+skončený masopust oplakává na vysoké úrovni:
+účastnící „rybího průvodu“ prochází  vesnicí ve fraku, s cylindrem
+a v husím pochodu.
+Zastavují se v hostincích, kde
+jedí sardinky, které si sami přinesli.
+K nim přikusují suchý chléb a zapíjejí je hojným množstvím piva,
+které jim hostinský nalévá zdarma.
 
-(Im Jahr 2001: 8 Gasthäuser, 800 – 1000 Kronsardinen, 50 Pfund Brot, 350 Maß Bier!)
-Der Höhepunkt des Fischzuges: 
-Um Mitternacht vergräbt die Trauergemeinschaft einen
- - nach der Faschingszeit - leeren Geldbeutel.
-Sein „Grab“ ist das Loch des zukünftigen Kirwabaums.
-Der Fischzug geht auf einen Heischebrauch zurück,
-der angeblich bis ins 19. Jahrhundert zurückgeht.
-Belege existieren nur aus der Zeit nach dem zweiten Weltkrieg.</string>
-    <string name="chinesenfasching_detail">„Chinesen aus Bayern wollen immer feiern …”,
-hallt es jährlich am Unsinnigen Donnerstag durch die Stadt,
-wenn die Dietfurter ihrem Kaiser huldigen.
-Der kunterbunte Faschingsumzug umfasste 2001 
-50 Gruppen und Motivwagen und
-lockte ca. 20 000 feierwütige Besucher in die Gemeinde.
-
-Warum und seit wann sich die Dietfurter als Chinesen bezeichnen ist ungewiss.
-Eine Anekdote besagt, dass einst der Bischof von Eichstätt
-seinen Kämmerer entsandte, um Abgaben einzufordern.
-Da die Dietfurter um das Vorhaben des Kämmerers wussten, 
-gewährten diese ihm keinen Einlass.
-Daraufhin berichtete der erboste Kämmerere seinem Bischof,
-dass die Dietfurter ihm wie die "Chinesen" vorkämen – 
-sie verschanzten sich hinter ihrer Mauer und nähmen keine Notiz von einem bischöflichen Kämmerer.</string>
-    <string name="oisinga_detail">Begibt man sich am Ostersonntag
-auf einen Spaziergang durchs nächtliche Etzelwang,
-erwartet einem eine ganz besondere Geräusch-/Gesangskulisse:
+(v roce 2001: osm hostinců, 800 – 1000 sardinek, 25 kilo chleba, 350 litrů piva!)
+Zlatý hřeb rybího průvodu:
+O půlnoci se zakope - po masopustu - prázdná peněženka.
+Její „hrob“ se stane jámou pro příští  posvícenskou májku.
+Rybí průvod vychází údajně z prosebných procesí
+19. století.
+Doklady o něm existují jen po druhé světové válce.</string>
+        <string name="chinesenfasching_detail">„Číňani z Bavorska chtějí pořád slavit,”
+zní každoročně ve čtvrtek před Popeleční středou
+v Dietfurtu, když jeho obyvatelé oslavují svého císaře.
+Pestrý masopustní průvod čítal v roce 2001
+50 skupin a alegorických vozů
+a přilákal kolem 20 000 návštěvníků.
+Proč a od kdy se obyvatelé Dietfurtu označují za Číňany, není jasné.
+Podle jedné historky poslal eichstättský biskup
+svého pokladníka do Dietfurtu vybrat poplatky.
+Obyvatelé o jeho úmyslu věděli
+a do obce jej nepustili.
+Rozezlený pokladník informoval biskupa,
+že mu Dietfurtané připadají jako "Číňani",
+kteří se zabarikádovali za hradbami a nevzali
+biskupského pokladníka na vědomí.</string>
+        <string name="oisinga_detail">Když se na Velikonoční neděli
+vydáte v noci do Etzelwangu na procházku,
+čeká na Vás nezvyklá zvuková /pěvecká kulisa:
 „Oiasinga, Oiasinga, o, san mia vasuffne Dinga,
-wenn ma niat drei Oia kröing, naou kinn ma nimma singa.“,
-mit diesem vergnügtem Ansingvers auf den Lippen
-bitten die Etzelwanger Junggesellen (meist Kirwa-Boum)
-vor den Haustüren spendabler Dorfbewohner um Gaben.
-Der Brauch lässt sich bis zur Jahrhundertwende zurückverfolgen.
-Ursprünglich wurde nur um Eier gebeten und 
-Mädchen durften nicht am nächtlichen Umzug teilnehmen.
-Heutzutage landen Schnaps, Wurst, Speck oder Geld 
-in den Apfelpflückern der jungen Burschen und Mädchen (!).
-Sind alle Häuser abgeklappert, 
-verzehren die „Oiasingara“ ihre erbeuteten Gaben 
-noch in derselben Nacht und teilen diese kameradschaftlich.</string>
-    <string name="maibaum_detail">Stellt man die Frage, welche Bedeutung der Maibaum hat,
-wird man sofort auf einen Fruchtbarkeitsbrauch hingewiesen.
-Es gibt widersprüchliche Thesen über die Herkunft des Maibaums,
-allerdings lassen sich keine eindeutigen Hinweise finden.
-Im 16. und zu Beginn des 17.Jahrhunderts wurde das Maibaumaufstellen verboten.
-Eine kurpfälzische Landesverordnung sollte die Waldbesitzer davor bewahren,
-dass das „Gesindel“ ihre Bäume für den Maibaum fällt.
-Erst nach dem Dreißigjährigen Krieg kam der Maibaumbrauch wieder auf.
-Soldaten errichteten zu Ehren der Fürsten und Offiziere Ehrenbäume und
-erhielten dafür reichlich Maibier.
-Dadurch geriet der Maibaum wieder in das Bewusstsein der Bürger.
-Die Kirche vereinnahmte den Baum erst später als Symbol der Erlösung 
-und Auferstehung an Ostern.
-Heute bringt der Maibaum die Menschen an seinem Festtag wieder näher zusammen.
+wenn ma niat drei Oia kröing, naou kinn ma nimma singa.“
+[Dejte vejce, dejte vejce, my jsme chlapi opilí,
+když nedáte tři vejce, nemůžeme dál zpívati.]
+Touto veselou koledou
+obchází mládež domy a prosí velkorysé
+obyvatele o dary.
+Tento obyčej existuje již po celá století. Původně se
+prosilo jen o vejce a nočního průvodu se
+směli účastnit jen muži.
+V česačích jablek mladých mužů a dívek (!) dnes končí kořalka, klobásy, slanina nebo peníze.
+Když koledníci obejdou všechny domy, rozdělí si
+ukořistěné dary a ještě v noci je společně sní.</string>
+        <string name="maibaum_detail">Na otázku, jaký význam má májka,
+se hned poukazuje na symbol plodnosti a s ním spojený obyčej.
+O původu májky existují protichůdné teorie,
+ale i důkazy.
+V 16. a na začátku 17. století bylo stavění májky zakázáno. Kurfiřtské zemské nařízení
+mělo vlastníky lesů ochránit před „verbeží“,  kácející stromy na májky.
+Májky se začaly opět stavět až po Třicetileté válce.
+Vojáci stavěli čestné stromy na počest knížat a důstojníků
+a byli za to hojně odměňováni májským pivem.
+Tak se májka opět dostala do veřejného povědomí.
+Církev později májku převzala jako velikonoční symbol vykoupení
+a vzkříšení.
+Májka dnes lidi opět na prvního máje májka dává dohromady.
 </string>
-    <string name="pavillion_detail">Wer nepalesische und tibetanische Tempel oder die unglaubliche Artenvielfalt des Himalaya sehen will, muss sich nicht unbedingt ins Flugzeug setzen und um die halbe Erde fliegen. 
-Es gibt einen zauberhaften Ort, angrenzend an Wiesent in der Oberpfalz, am Fuße des bayerischen Waldes. Der Besitzer Herr Heri Wirth entdeckte 2000 den Nepal- Himalaya- Pavillon auf der expo 2000 in Hannover, als dieser als einer der 168 Länderpavillons diente. Er galt mit rund 3,5 Millionen Menschen, als meist besuchter Länderpavillon. An seinem ursprünglichen Standort auf der expo 2000 wurde der Pavillon in Einzelteile zerlegt, die nach Wiesent transportiert wurden. 
-Im Juli 2003 wurde der originalgetreue Wiederaufbau fertig gestellt und ist seit dem 15. Juli 2003 wieder für die Öffentlichkeit zugänglich. 
+        <string name="pavillion_detail">Budete velmi překvapeni, že v Horní Falci v podhůří Bavorského lesa narazíte na nepálský chrám a zahrady z dálného východu.
+Nedaleko obce Wiesent najdete kouzelné místo, které se nachází na úpatí Bavorského lesa. Podnikatel pan Heribert Wirth v roce 2000 objevil na světové výstavě expo 2000
+v Hannoveru Nepálsko-Himalájský pavilon, který tam sloužil jako jeden ze 168 zemských pavilonů. Tam jej navštívilo 3,5 milionů lidí a patřil tak
+k nejnavštěvovanějším. Po skončení expa jej v Hannoveru rozebrali a po částech převezli do Wiesentu, kde ho opět sestavili do originální podoby. 15. července 2003 byl chrám opět zpřístupněn veřejnosti.
 
-Der Nepal-Himalaya-Pavillon ist ein Ort inmitten der Oberpfalz, an dem sich Kultur und Natur auf das Innigste verbinden. 
-Die weltweit größte Sammlung an Himalayapfalnzen befindet sich im Himalayagarten, ein Chinagarten und zahlreiche nepalesische Kunstwerke betten den beeindruckenden Tempel ein.
+Nepálsko-Himalájský pavilon je místem uprostřed Horní Falce, kde se kultura a příroda prolínají.
+V přilehlé Himalájské a Čínské zahradě se nachází největší sbírka himalájských rostlin. Působivý chrám zdobí četná nepálská umělecká díla.
 
-Erwähnenswert ist, dass alle Eintrittsgelder an die Stiftung „Wasser für die Welt“ gehen, die damit Wasserprojekte in der Dritten Welt finanziert.
+Za zmínku stojí, že vstupné putuje na účet nadace „Wasser für die Welt“ [Voda pro svět], která díky němu financuje projekty v zemích třetího světa.
 
-Dieser Ort sei als Ort der Begegnung zu verstehen, ein Ort, an dem man „eins sein kann mit der Natur“ – ein Ort, an dem alle Konfessionen gleich sind – Hinduisten, Buddhisten, Katholiken, Protestanten und viele mehr bereichern sich und lernen voneinander…        </string>
-    <string name="specht_detail">„Wetz de, wetz de – Baach aafschnei’n!“
+Toto místo má být vnímáno jako místo setkání, jako místo, na kterém „můžeme splynout
+s přírodou“ – místo, na kterém si jsou všechna vyznání rovna, neboť hinduisté, budhisté, katolíci, potestanti a mnoho dalších se navzájem obohacují a jeden od druhého učí …        </string>
+        <string name="specht_detail">„Wetz de, wetz de – Baach aafschnei’n!“
 
-Bei der „Specht“ handelt es sich um eine alte Brauchtumsfigur eines germanischen Naturdämons. Der in der Oberpfalz vor allem in der bäuerlichen Bevölkerung weit verbreitete Brauch galt eigentlich als bereits ausgestorben.  Dennoch kann man ihn heute noch stark vereinzelt in Familien der östlichen Oberpfalz (Tirschenreuth) auffinden.   
+ „Specht“ je starý germánský přírodní démon. Obyčej, rozšířený
+v Horní Falci především mezi sedláky, již vymizel. Ojediněle se s ním lze setkat v rodinách, žijících na východě Horní Falce (Tirschenreuth).   
 
-Verkleidet ist die “Specht“ mit Stroh alten Kleidern oder einem Betttuch, das meist blutbespritzt ist. Im Gesicht hat sie einen langen schwarzen Schnabel und in der Hand hält sie eine große Schere oder eine Sichel mit denen sie Kindern symbolisch den Bauch aufschlitzt. 
-Sie taucht ganz unerwartet auf und jagt durch das Dorf wobei sie ihr Instrument an einem Schleifstein wetzt und dazu folgendes spricht: „Wetz de wetz de – Baach aafschnei’n“. 
-Die Kinder u. die Jugendlichen, die bereits auf sie gewartet haben laufen schreiend davon.
-Das angedrohte Bauchaufschneiden tritt heute in den Hintergrund, obwohl die Specht hier die Rolle einer Strafenden an Stelle der Eltern übernimmt. 
+“Specht“ je postava ve starých šatech nebo zakrváceném prostěradle. Má dlouhý černý zobák a v ruce drží velké nůžky nebo srp, kterými dětem symbolicky rozřezává břicho.
+Objevuje se znenadání a žene se vesnicí, brousí si svůj nástroj brouskem a říká si: „Wetz de wetz de – Baach aafschnei’n“ [brus brus – rozříznu ti břicho]. 
+Děti a mládež, které na ni čekaly, se s křikem rozprchnou.
+Specht sice v současnosti již nevyhrožuje, ale i dnes má roli trestající postavy.
+Stejně rychle jak se „Specht“ objeví, stejně rychle je představení u konce. „Specht“ náhle zmizí jako démon z dávných dob. Chcete-li si tohoto strašáka dětí naklonit, musíte mu na zahradu nosit jídlo. S nošením pomáhají i děti, které třesou ovocnými stromy, aby v příštím roce nesly hodně ovoce. „Specht“ se za odměnu postará o plodný nový rok.
 
-Genauso schnell wie die „Specht“ auftaucht, geht das Spektakel auch wieder zu Ende. Die „Specht“ verschwindet wie ein Dämon aus längst vergangener Zeit. Um diesen Kinderschreckgeist zu  besänftigen muss man ihn füttern, in dem man ihm Essen in den Garten bringt. Zum Beispiel werden überdies Obstbäume geschüttelt, damit diese im nächsten Jahr wieder viel Obst tragen. Als Dank sorgt die „Specht“ für ein fruchtbares neues Jahr. 
+V devadesátých letech se z představení stala turistická atrakce, které se účastní jak diváci tak média.  </string>
+        <string name="oarschboussn_detail">vysvětlivky: „boußn“ (měkké „ß“ jako v rußen = „čadit“) = „poßn“ = bít= „bucha“ = „bleschn“ = „dát na zadek“. 
+Kulturologové se domnívají, že se jedná o obyčej, spojený se symbolem plodnosti, „kultovní bití“. Kdysi byl tento zvyk v Horní Falci rozšířený. Někde se mu říká také „Bucha“ nebo „Bleschn“.
 
-Seit den 90er Jahren wurde das Spektakel zur Touristenattraktion ausgebaut und nährt sich von Mediengesellschaften und vielen Zuschauern.         </string>
-    <string name="oarschboussn_detail">Worterklärung: „boußn“ (weiches „ß“ wie in rußen = „roußen“) = „poßn“ = pochen, schlagen = „bucha“ = „bleschn“ = „schlegeln“. 
-Kulturwissenschaftler vermuten dahinter einen Fruchtbarkeitsbrauch, ein „kultisches Schlagen“. Dieser Brauch war eins in der Oberpfalz verbreitet. In manchen Orten wird er auch „Bucha“ oder „Bleschn“ genannt. 
+Dříve na Popeleční středu chodili mládenci po vesnici vybaveni prknem, obuškem a džbánem. Mířili k domům, v nichž bydlely dívky, které s nimi  během masopustu tančily. Když na takovou dívku narazili, přiložili jí  prkno na zadnici a udeřili na ně třikrát obuškem. Předtím jím třikrát uhodili o zem (odtud  „boußn“). Ženy jim pak daly peníze nebo potraviny, které mládenci sbírali do koše nebo velkého šátku. Ti jim na oplátku nabízeli pivo.
 
-Dabei zogen ursprünglich am Aschermittwoch die Burschen des Dorfes durch die Straßen und suchten Häuser auf, von denen sie wussten, dass dort junge Mädchen wohnen, die mit ihnen in der Faschingszeit getanzt haben. Größtenteils wurden sie dort bereits erwartet. 
-Einer der jungen Männer trug dabei ein Stück Brett, einen Knüppel, und eine „Stütze“ Bier. Ein weiterer schleppte einen Maßkrug mit, um Geschenkgebern Bier zu kredenzen und ein Fünfter einen Korb oder ein großes Tuch, um Gaben einzusammeln. Trafen die Burschen ein Mädchen an, wurde es festgehalten und auf ihren „Allerwertesten“ das besagte Brett gehalten. Der Knüppelträger stieß den Knüppel dreimal auf den Boden, das heißt er pochte oder poßte (daraus leitet sich das Wort „boußn“ ab) und führte ein- bis dreimal ein Schlag auf das Brett aus. Durch diese Schläge sollten die Zeugungsorgane, sofern sie in der Faschingszeit Schaden erlitten hätten, wieder in Ordnung gebracht werden. Die Mädchen spendierten dann Geld oder Naturalien in Form von Eiern, Schmalz oder Selchfleisch. 
+V Oberviechtachu v hornofalcském okresu Schwandorf najdete tento obyčej v obrácené verzi – role se změnily a ženy „bijí“ muže …</string>
+        <string name="ratschn_detail">Dříve se zima vyháněla za pomoci řehtaček. Původně se užívaly v katolických kostelech během temné jitřní mše a při svatbách.
+Dnes se s tímto zvykem setkáváme na Velký pátek a na Bílou sobotu u kostela před začátkem mše. Průvod s řechtačkami obcí je zvykem, na kterém se v Horní Falci podílí děti a mládež  např. v obcích Leuchtenberg, Söllnitz, Etzenricht, Grafenwöhr, Kohlberg, Mantel, Pressath, Rothenstadt, Döllnitz und Lohberg.         </string>
 
-In Oberviechtach im Oberpfälzer Landkreis Schwandorf findet man diesen Brauch genau umgekehrt vor  – die Rollenverteilung änderte sich und die Frauen „boußn“ mit Knüppeln auf die Männer ein …</string>
-    <string name="ratschn_detail">Als „Ratschen“ werden Lärminstrumente bezeichnet, die vor langer Zeit zum Winteraustreiben verwendet wurden. 
-Die ursprüngliche Verwendung fand in der Volksliturgie der katholischen Kirche bei den Rumpel- und Trauermetten statt. 
-Heute findet man diesen Brauch zum Karfreitag und Karsamstag – am Platz vor der Kirche, ehe der Gottesdienst beginnt. Das RATSCHEN durch den Ort, ist ein Brauch, der in der Oberpfalz von Kindern und Jugendlichen gepflegt wird – z.B. in Leuchtenberg, Söllnitz, Etzenricht, Grafenwöhr, Kohlberg, Mantel, Pressath, Rothenstadt, Döllnitz und Lohberg.         </string>
 
-    <!--  -->
     <string name="bergfest_schmidmuehlen_titel">Kreuzbergfest \nSchmidmühlen</string>
-    <string name="bergfest_auerbach_titel">Gottvaterbergfest \nAuerbach</string>
-    <string name="bergfest_freudenberg_titel">Johannisbergfest \nFreudenberg</string>
-    <string name="bergfest_amberg_titel">Mariahilfbergfest \nAmberg</string>
-    <string name="bergfest_sulzbach_titel">Annabergfest \nSulzbach-Rosenberg</string>
-    <string name="bergfest_schnaittenbach_titel">Buchbergfest \nSchnaittenbach</string>
-    <string name="bergfest_hahnbach_titel">Frohnbergfest \nHahnbach</string>
-    <string name="bergfest_mausberg_titel">Mausbergfest \nMausberg bei Gebenbach</string>
-    <string name="bergfest_kreuzberg_titel">Axtheid-Bergfest \nKreuzberg bei Vilseck</string>
-    <string name="bergfest_ensdorf_titel">Eggenbergfest \nEnsdorf</string>
-    <string name="bergfest_waldthurn_titel">Fahrenbergfest (4x im Jahr) \nWaldthurn</string>
-    <string name="bergfest_pfreimd_titel">Eixlbergfest \nPfreimd (Schwandorf)</string>
-    <string name="bergfest_pleystein_titel">Kreuzbergfest \nPleystein</string>
+        <string name="bergfest_auerbach_titel">Gottvaterbergfest \nAuerbach</string>
+        <string name="bergfest_freudenberg_titel">Johannisbergfest \nFreudenberg</string>
+        <string name="bergfest_amberg_titel">Mariahilfbergfest \nAmberg</string>
+        <string name="bergfest_sulzbach_titel">Annabergfest \nSulzbach-Rosenberg</string>
+        <string name="bergfest_schnaittenbach_titel">Buchbergfest \nSchnaittenbach</string>
+        <string name="bergfest_hahnbach_titel">Frohnbergfest \nHahnbach</string>
+        <string name="bergfest_mausberg_titel">Mausbergfest \nMausberg bei Gebenbach</string>
+        <string name="bergfest_kreuzberg_titel">Axtheid-Bergfest \nKreuzberg
+u Vilsecku</string>
+        <string name="bergfest_ensdorf_titel">Eggenbergfest \nEnsdorf</string>
+        <string name="bergfest_waldthurn_titel">Fahrenbergfest (4x im Jahr) \nWaldthurn</string>
+        <string name="bergfest_pfreimd_titel">Eixlbergfest \nPfreimd (Schwandorf)</string>
+        <string name="bergfest_pleystein_titel">Kreuzbergfest \nPleystein</string>
 
     <!--  -->
     <string name="bergfest_schmidmuehlen_detail"></string>
-    <string name="bergfest_auerbach_detail"></string>
-    <string name="bergfest_freudenberg_detail">Einen unverwechselbaren Charme umgibt die auf einem schroffen Felsen erbaute Kirche auf dem Johannisberg, denn dort gibt es weder Strom noch Wasser. So verliest der Pfarrer an düstern Tagen das Evangelium bei Kerzenschein.
-Doch so idyllisch ging es auf dem Johannisberg nicht immer zu:
-1597 ließ Pfalzgraf Friedrich die Kirche im Zuge der Reformation sprengen, um der katholischen „Ketzerei“ Einhalt zu gewähren.</string>
-    <string name="bergfest_amberg_detail">Der Dreißigjährige Krieg traf Amberg hart, denn mit ihm kam auch der „schwarze Tod“. Die Pest kostete 1633/34 jeden dritten Amberger das Leben. Die verzweifelte Amberger Bürgerschaft gelobte daraufhin eine Kapelle zu erbauen. 
-Wie durch ein Wunder überstand das gestiftete Marienbild des Jesuiten Paters Caspar Hell, den Brand dieser Kirche im Jahre 1646 unbeschadet. 
-Heute noch erinnert das Deckenfresko, der 1696 erbauten Wallfahrtskirche, an dieses wundersame Ereignis.</string>
-    <string name="bergfest_sulzbach_detail">Kurios erscheint hier, dass sich inmitten einer evangelisch-lutherischen Bekenntnismehrheit, eine derart beliebte und schöne Wallfahrt wie zu Sankt Anna entwickeln konnte.
-Ursache hierfür: Pfalzgraf Christian August von Pfalz-Sulzbach (1632 - 1708).  Selbst konvertierte er zwar zum Katholizismus, er machte jedoch nicht von seinem Recht gebrauch, auch seine Landeskinder zur Konversion zu zwingen.</string>
-    <string name="bergfest_schnaittenbach_detail"></string>
-    <string name="bergfest_hahnbach_detail">Um den Frohnberg ranken sich aufgrund der besonderen Lage der Wallfahrtskirche inmitten eines dichten Waldes, zahlreiche Mythen und Legenden. Es gilt als das am wenigsten bekannte Fest des Bergfestdreiecks.</string>
-    <string name="bergfest_mausberg_detail"></string>
-    <string name="bergfest_kreuzberg_detail"></string>
-    <string name="bergfest_ensdorf_detail">Zum Patrozinium der Vierzehn-Nothelfer am dritten Sonntag im September, feiert die Ensdorfer Pfarrgemeinde ihr Eggenbergfest. Das idyllisch, am Rande des Hirschwaldes gelegene Kirchlein wurde bereits 1699 geweiht.</string>
-    <string name="bergfest_waldthurn_detail">Um 1200 hatte der Templerorden die Burg auf dem 801 m hohen Fahrenberg nahe der tschechischen Grenze eingenommen. Laut Überlieferung habe ein Templer eine Marienstatue aus dem Heiligen Land gebracht. Daraufhin bauten die Templer eine Kapelle und stellten das Marienbild dort auf. Die heutige Wallfahrtskirche Mariäheimsuchung gilt als eine der ältesten Marienwallfahrten Bayerns und erfreut sich über das gesamte Jahr äußerster Beliebtheit, die sich durch zahlreiche Pilgerfeste äußert.</string>
-    <string name="bergfest_pfreimd_detail">Die Legende besagt, dass einst Holzknechte im Wald ein Bild der heiligen Barbara fanden. Diese brachten es in die Kirche nach Pfreimd. Das Bild der Heiligen kehrte jedoch immer wieder auf mysteriöse Weise an die Fundstelle im Wald zurück. 1342 ließ Landgraf Ulrich der II dort eine Kapelle errichten.</string>
-    <string name="bergfest_pleystein_detail"></string>
+        <string name="bergfest_auerbach_detail"></string>
+        <string name="bergfest_freudenberg_detail">Nezapomenutelnou atmosférou oplývá kostel na Johannisbergu, postavený na strmé skále, neboť v něm není k dispozici ani proud ani voda.
+Farář tak za temných dní předčítá evangelium za světla svíčky.
+Ale tak idylické to na Johannisbergu nebylo vždy:
+Během reformace nechal  falckrabí Friedrich v roce 1597 kostel zbořit, aby tak zamezil katolickému „rouhání“.</string>
+        <string name="bergfest_amberg_detail">Třicetileté válka Amberg výrazně poznamenala, neboť přinesla „černou smrt“. Mor připravil v letech 1633 a 1634 o život každého třetího obyvatele tohoto města. Zoufalí měšťané slíbili postavit kapli.
+Obraz Panny Marie, dar jezuity pátera Caspara Hella, zůstal při požáru tohoho kostela v roce  1646 jako zázrakem nepoškozený.
+Stropní freska v poutním kostele, postaveném 1696, dodnes připomíná zázračnou událost.</string>
+        <string name="bergfest_sulzbach_detail">Kuriozitou je, že se v evangelickém regionu mohla rozšířit tak oblíbená a pěkná pouť jako ta Svatoannenská. Zasloužil se o to falckrabí Christian August von Pfalz-Sulzbach (1632 - 1708), který sám konvertoval ke katolicismu, který ale své poddané ke konverzi nenutil, byť na to měl právo.</string>
+        <string name="bergfest_schnaittenbach_detail"></string>
+        <string name="bergfest_hahnbach_detail">K Frohnbergu, kostelu uprostřed hlubokého lesa, se vztahuje celá řada mýtů a legend. To platí také pro tři nejméně známé horské slavnosti.</string>
+        <string name="bergfest_mausberg_detail"></string>
+        <string name="bergfest_kreuzberg_detail"></string>
+        <string name="bergfest_ensdorf_detail">Třetí neděli v září, na patrocinium Čtrnácti svatých, slaví fara v Ensdorfu svůj Eggenbergfest. Kostelík, který leží idylicky na kraji lesa byl vysvěcen již 1699.</string>
+        <string name="bergfest_waldthurn_detail">Kolem roku 1200 dobyl templářský řád hrad na 801 m vysokém Fahrenbergu blízko české hranice.  Templáři přivezli sošku Panny Marie ze Svaté země, postavili tam kapli a sošku v ní umístili. Dnešní poutní kostel je jedním
+z nejstarších mariánských poutních míst v Bavorsku, který se těší velké oblibě  a ve kterém se pocelý trok slaví různé poutní slavnosti. </string>
+        <string name="bergfest_pfreimd_detail">Podle legendy našli dřevorubci v lese obraz svaté Barbory a odnesli jej do kostela v obci Pfreimd. Obraz svaté se ale nevysvětlitelným způsobem pořád vracel na místo nálezu v lese. V roce 1342 tam nechal lankrabí Ulrich II. postavit kapli.</string>
+        <string name="bergfest_pleystein_detail"></string>
 
-    <!--  -->
-    <string name="kirwa_erbendorf_titel">Kirwa Erbendorf \nTirschenreuth</string>
-    <string name="kirwa_neustadt_titel">Kirwa Neustadt \nNeustadt a. d. WN</string>
-    <string name="kirwa_amberg_titel">Kirwa \nAmberg-Sulzbach</string>
-    <string name="kirwa_fronberg_titel">Fronberger Kirwa \nSchwandorf</string>
-    <string name="kirwa_thalersdorf_titel">Kirwa Thalersdorf \nCham</string>
-    <string name="kirwa_trautmannshofen_titel">Kirwa Trautmannshofen \nNeumarkt</string>
-    <string name="kirwa_kallmuenz_titel">Kirwa Kallmünz \nRegensburg</string>
+        <string name="kirwa_erbendorf_titel">Kirwa Erbendorf \nTirschenreuth</string>
+        <string name="kirwa_neustadt_titel">Kirwa Neustadt \nNeustadt a. d. WN</string>
+        <string name="kirwa_amberg_titel">Kirwa \nAmberg-Sulzbach</string>
+        <string name="kirwa_fronberg_titel">Fronberger Kirwa \nSchwandorf</string>
+        <string name="kirwa_thalersdorf_titel">Kirwa Thalersdorf \nCham</string>
+        <string name="kirwa_trautmannshofen_titel">Kirwa Trautmannshofen \nNeumarkt</string>
+        <string name="kirwa_kallmuenz_titel">Kirwa Kallmünz \nRegensburg</string>
 
-    <!--  -->
-    <string name="kirwa_erbendorf_detail">Früher wurde die Erbendorfer Kirwa in den Wirtshäusern des Ortes gefeiert, heute ist sie eine typische Zeltkirwa. Neben den bekannten Kirwaschmankerln gibt’s in Erbendorf am Kirwasonntag einen Kirwazug, der mit seinen Wägen auch lokale Gegebenheiten thematisiert und auf die Schippe nimmt.</string>
-    <string name="kirwa_neustadt_detail">Am Sonntag vor dem Volkstrauertag im November wird in Neustadt die Dotschkirwa gefeiert. Neben dem Namensgebenden Kirwadotsch findet man dort auf dem Kirchweihmarkt auch andere Leckereien.</string>
-    <string name="kirwa_amberg_detail">Mit 120 Kirwaorten ist Amberg-Sulzbach wohl der Landkreis mit der höchsten „Kirwadichte“. Jedes Wochenende in der Saison hat man die Qual der Wahl.</string>
-    <string name="kirwa_fronberg_detail">Die Fronberger Kirwa kämpfte lange um ihre Existenz. Ausgerichtet wurde und wird sie vom Burschenverein, der in seiner zeitweiligen Auflösung vom Trachtenverein vertreten wurde. Heute muss nicht mehr um ihr Fortbestehen gebangt werden.</string>
-    <string name="kirwa_thalersdorf_detail">Ein schauriger Hintergrund begleitet die Kirwa in Thalersdorf, die nur 1928 ein einziges Mal stattgefunden hat. Dabei kam ein Mann unschuldiger Weise ums Leben. Im Jahr 2013 fand sie zum ersten Mal wieder statt und soll ab sofort zu einer Tradition werden.</string>
-    <string name="kirwa_trautmannshofen_detail">Die Trautmannshofener Kirwa besticht mit ihrer traditionellen Stodlbar.</string>
-    <string name="kirwa_kallmuenz_detail">Eine Gaudi bietet die Kallmünzer Kirwa am Kirwamontag mit ihrem Kirwabärtreiben. Der Bär verlangt Wegezoll, bittet an Häusern um leibliche Stärkung, tanzt mit den Hausherrinen und ringt mit den jungen Männern, die ihn traditioneller Weise herausfordern.</string>
+        <string name="kirwa_erbendorf_detail">Dřív se posvícení v Erbendorfu slavilo ve vesnických hostincích, dnes se slaví ve velkém stanu. Vedle známých pochoutek je
+v Erbendorfu na posvícenskou neděli k vidění průvod, ve kterém si alegorické vozy
+s humorem dobírají místní události.</string>
+        <string name="kirwa_neustadt_detail">V listopadu v neděli před dnem smutku se
+v Neustadtu slaví Dotschkirwa [bramborákové posvícení]. Posvícenský trh nabízí vedle  bramboráků i jiné speciality.</string>
+        <string name="kirwa_amberg_detail"> Okres Amberg-Sulzbach patří se svými 120 různými posvíceními zřejmě k okresům s největší „hustotou posvícení“. Během sezóny si můžete každý víkend vybrat z několika možností.</string>
+        <string name="kirwa_fronberg_detail">Fronbergské posvícení muselo o svou existenci dlouho bojovat. Pořádal je vesnický spolek. Po jeho zrušení organizaci převzal folklórní spolek. Dnes se o svou budoucnost již nemusí bát.</string>
+        <string name="kirwa_thalersdorf_detail"> Na posvícení v Thalersdorfu, které se konalo jen v roce 1928, došlo k úmrtí muže. V roce 2013 se posvícení konalo od té doby poprvé a má se stát tradicí.</string>
+        <string name="kirwa_trautmannshofen_detail">Posvícení v Trautmannshofenu nabízí tradiční bar ve stodole.</string>
+        <string name="kirwa_kallmuenz_detail"> Posvícenský rej v Kallmünzu zaručuje velkou zábavu. Chodí tam medvěd, který vybírá clo a prosí o jídlo. Tančí s ženami a musí bojovat s mladíky, kteří ho podle tradice vyzývají na souboj.</string>
 
 </resources>
